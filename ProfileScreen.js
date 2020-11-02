@@ -93,35 +93,35 @@ export default class ProfileScreen extends React.Component {
                 <TextInput
                     style={{ height: 40, borderColor: 'gray', borderWidth: 1 }}
                     onChangeText={text => this.setState({ goalDailyActivity: text })}
-                    value={this.state.goalDailyActivity}
+                    value={this.state.goalDailyActivity + ""}
                     placeholder="0">
                 </TextInput>
                 <Text>Goal Daily Calories</Text>
                 <TextInput
                     style={{ height: 40, borderColor: 'gray', borderWidth: 1 }}
                     onChangeText={text => this.setState({ goalDailyCalories: text })}
-                    value={this.state.goalDailyCalories}
+                    value={this.state.goalDailyCalories + ""}
                     placeholder="0">
                 </TextInput>
                 <Text>Goal Daily Carbohydrates</Text>
                 <TextInput
                     style={{ height: 40, borderColor: 'gray', borderWidth: 1 }}
                     onChangeText={text => this.setState({ goalDailyCarbohydrates: text })}
-                    value={this.state.goalDailyCarbohydrates}
+                    value={this.state.goalDailyCarbohydrates + ""}
                     placeholder="0">
                 </TextInput>
                 <Text>Goal Daily Fat</Text>
                 <TextInput
                     style={{ height: 40, borderColor: 'gray', borderWidth: 1 }}
                     onChangeText={text => this.setState({ goalDailyFat: text })}
-                    value={this.state.goalDailyFat}
+                    value={this.state.goalDailyFat + ""}
                     placeholder="0">
                 </TextInput>
                 <Text>Goal Daily Protein</Text>
                 <TextInput
                     style={{ height: 40, borderColor: 'gray', borderWidth: 1 }}
                     onChangeText={text => this.setState({ goalDailyProtein: text })}
-                    value={this.state.goalDailyProtein}
+                    value={this.state.goalDailyProtein + ""}
                     placeholder="0">
                 </TextInput>
                 <Button title="Save" onPress={this.handleSave}></Button>
